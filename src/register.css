@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container1{
+  background-color: teal;
+  width:100vw;
+  height:100vh;
+  padding: 2em 5em 5em 5em;
+    
+}
+.container2{
+background-color:hsl(177, 100%, 93%);
+width: 100%;
+padding: 1em 10em 2em 10em;    
+border-bottom-left-radius: .5em;
+border-bottom-right-radius: .5em;
+height:100%    
+}
+
+header{
+  background-color:hsl(0, 0%, 100%);
+  border-top-left-radius:.5em;
+  border-top-right-radius:.5em;
+  height: 4em;
+  padding: 1em 0 1em 2em;
+  width:100%
+}
+
+.content{
+  
+  color:teal;
+  padding-bottom: .6em;
+  font-size:1.5em;
+  font-weight: 500;
+}
+
+.container3{
+  background-color:white;
+    width: 100%;
+    height: 92%;
+    border-radius:.5em;
+    display: flex;
+    gap:1em;
+    padding:2em 3em 2em 3em
+}
+
+.left-box{
+  
+  width: 50%;
+}
+
+.right-box{
+  
+  width: 50%;
+}
+
+.span{
+  padding:.4em 0em .4em 0em;
+  font-weight: 500;
+  font-size:1em;
+  color: black;
+}
+
+.submit-bt button{
+  background-color: teal;
+  color: white;
+  
+  padding: .6em 2.5em;
+  font-size: 1em;
+  
+}
+
+.input-box{
+  padding: .8em;
+  width: 80%;
+  border-radius: .5em;
+}
+
+.input-group{
+  padding:.3em 0em;
+}
+
+.dropdown{
+  padding: .5em 0em;
+}
+
+/* .right-input{
+  padding: .5em 0em;
+} */
+
+.right-content{
+  color:teal;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+input[type='radio']{
+  width: 25px;
+  height: 25px;
+}
+input[type=checkbox] {
+  margin: 4px 0 0;
+  line-height: normal;
+  width: 20px;
+  height: 20px;
+}

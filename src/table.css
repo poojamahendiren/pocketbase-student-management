@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,th,td{
+    border:1px solid rgba(85, 79, 79, 0.133);
+    border-collapse:collapse
+}
+th,td{
+    padding:.8em 3em .8em 3em;
+}
+
+
+  
+  .main{
+    height: 100vh;
+    padding: 4em;
+
+    
+  }
+  .table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width:100%;
+
+    
+  }
+  .header{
+    display: flex;
+    padding-top: 5em;
+    width:72%
+  }
